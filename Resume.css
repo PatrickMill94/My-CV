@@ -1,4 +1,24 @@
 
+@font-face {
+  font-family: "Futura LT";
+  src: url("./fonts/FuturaLT-Book.woff2") format("woff2"),
+       url("./fonts/FuturaLT-Book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  /* If fonts are on a different origin add: font crossorigin headers on the server */
+}
+
+@font-face {
+  font-family: "Futura LT";
+  src: url("./fonts/FuturaLT-Bold.woff2") format("woff2"),
+       url("./fonts/FuturaLT-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 .container-full{
     max-width: 1200px;
     margin: 0 auto;
