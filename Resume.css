@@ -126,13 +126,13 @@ display: inline-block;
 .container-left{
      flex-shrink: 0;
     width: 30%; 
-    text-align: justify;  
+    text-align: left;
 }
 
 .container-right{
      flex-shrink: 0;
     width: 55%;
-    text-align: justify;
+    text-align: left;
 }
 
 
