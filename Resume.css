@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "Futura LT";
   src: url("./fonts/FuturaLT-Book.woff2") format("woff2"),
@@ -18,6 +17,15 @@
   font-display: swap;
 }
 
+.email-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+.email-link .icon-circle { flex: 0 0 auto; }
+.email-link .body-text { margin: 0; }
 
 .container-full{
     max-width: 1200px;
@@ -125,13 +133,13 @@ display: inline-block;
 
 .container-left{
      flex-shrink: 0;
-    width: 30%; 
+    width: 33%; 
     text-align: left;
 }
 
 .container-right{
      flex-shrink: 0;
-    width: 55%;
+    width: 52%;
     text-align: left;
 }
 
