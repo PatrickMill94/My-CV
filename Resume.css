@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Futura LT";
   src: url("./fonts/FuturaLT-Book.woff2") format("woff2"),
@@ -99,9 +100,10 @@ display: inline-block;
 
 .main-heading{
     font-family: Futura LT, sans-serif;
-    font-size: 3rem;
+  
+    font-size: 3.5rem;
     color: rgb(36, 131, 131);
-    text-shadow: 5px 5px 0px rgba(236, 128, 56, 0.7);
+    
 }
 
 .sub-heading{
